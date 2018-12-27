@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_all">72px</dimen>
+
+    <dimen name="remark_all">55px</dimen>
+
+    <dimen name="font_36">36px</dimen>
+    <dimen name="font_54">54px</dimen>
+    <dimen name="font_40">40px</dimen>
+    <dimen name="font_44">44px</dimen>
+    <dimen name="font_32">32px</dimen>
+    <dimen name="font_48">48px</dimen>
+    <dimen name="left_margin">60px</dimen>
+    <dimen name="left_margin2">80px</dimen>
+
+</resources>

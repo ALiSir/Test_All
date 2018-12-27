@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BaseLibrary_All</string>
+	
+	    <!--top 库-->
+    <string name="time_is_am">AM</string>
+    <string name="time_is_pm">PM</string>
+    <string name="theme_night">Night</string>
+    <string name="theme_day">Daytime</string>
+</resources>

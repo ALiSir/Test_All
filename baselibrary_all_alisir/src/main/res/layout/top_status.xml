@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:qihan="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:visibility="gone"
+        android:layout_marginLeft="100px"
+        android:id="@+id/status_time_quantum_icon"
+        android:tag="status_time_quantum_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:visibility="gone"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="180px"
+        android:id="@+id/status_time_quantum_text"
+        android:tag="status_time_quantum_text"
+        android:textSize="35px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.sanbot.baselibrary_all.top.CustomTimeView
+        android:id="@+id/status_time"
+        android:tag="status_time"
+        android:textSize="35px"
+        android:textColor="#9899ac"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.sanbot.baselibrary_all.top.BatteryView
+        qihan:BodyColor="#6bc86b"
+        qihan:StrokeColor="#9899ac"
+        android:tag="status_battery"
+        android:id="@+id/status_battery"
+        android:layout_marginRight="100px"
+        android:layout_gravity="right|center_vertical"
+        android:layout_width="85px"
+        android:layout_height="35px" />
+</FrameLayout>
